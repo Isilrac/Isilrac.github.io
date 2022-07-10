@@ -43,6 +43,7 @@ h1{
   bottom: 30%;
   left: 50%;
   transform: translateX(-50%);
+  background: blue;
 }
 
 h1 span{
