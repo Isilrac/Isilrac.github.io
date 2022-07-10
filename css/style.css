@@ -58,7 +58,7 @@ h1 span{
   transform: translateX(-50%);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 43rem) {
   /* For mobile phones: */
   
   .scrollGif{
@@ -75,6 +75,5 @@ h1 span{
   padding-top: 100px;
   width: 70%;
   bottom: 15%;
-}
-
+  }
 }
