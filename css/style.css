@@ -81,8 +81,13 @@ h1 span{
 /* Modern Phones and some Tablets*/
 @media only screen and (max-width: 62rem) {
 
+  .logo{
+    margin-left: 5%;
+  }
+
   .contacto{
-    font-size: 2.5em;
+    font-size: 2.7em;
+    margin-right: 5%;
   }
 
   h1{  
@@ -92,7 +97,7 @@ h1 span{
   }
 
   .scrollGif{
-    bottom: 200px;
+    bottom: 220px;
   }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
