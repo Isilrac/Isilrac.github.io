@@ -6,6 +6,7 @@
 
 header{
   height: 20vh;
+  height: calc(var(--vh, 1vh) * 20);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,6 +30,7 @@ header{
 .fullSection{
   width: 100%;
   height: 80vh;
+  height: calc(var(--vh, 1vh) * 80);
   position: relative;
 }
 
@@ -40,7 +42,6 @@ h1{
   padding-top: 100px;
   width: 35%;
   top: 0;
-  bottom: 30%;
   left: 50%;
   transform: translateX(-50%);
   background: blue;
@@ -58,43 +59,53 @@ h1 span{
   transform: translateX(-50%);
 }
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Really Small or Old Cellphones */
 @media only screen and (max-width: 43rem) {
-  /* For mobile phones: */
-  
-  .scrollGif{
-    bottom: 100px;
-  }
 
   .contacto{
-    font-size: 2em;
-    background: red;
+    font-size: 2.3em;
   }
 
   h1{  
   font-size: 4.5em;
   padding-top: 100px;
   width: 70%;
-  bottom: 15%;
+  }
+  
+  .scrollGif{
+    bottom: 100px;
   }
 }
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Modern Phones and some Tablets*/
 @media only screen and (max-width: 62rem) {
-  /* For mobile phones: */
-  
-  .scrollGif{
-    bottom: 100px;
-  }
 
   .contacto{
     font-size: 2em;
-    background: red;
   }
 
   h1{  
   font-size: 4.5em;
-  padding-top: 100px;
-  width: 70%;
-  bottom: 15%;
-  background: red;
+  padding-top: 140px;
+  width: 80%;
+  }
+
+  .scrollGif{
+    bottom: 100px;
   }
 }
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
