@@ -61,11 +61,12 @@ h1 span{
   /* For mobile phones: */
   
   .scrollGif{
-    bottom: 40px;
+    bottom: 100px;
   }
 
   .contacto{
     font-size: 2em;
+    color: darkred;
   }
 
 }
