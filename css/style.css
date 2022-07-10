@@ -77,3 +77,24 @@ h1 span{
   bottom: 15%;
   }
 }
+
+@media only screen and (max-width: 62rem) {
+  /* For mobile phones: */
+  
+  .scrollGif{
+    bottom: 100px;
+  }
+
+  .contacto{
+    font-size: 2em;
+    background: red;
+  }
+
+  h1{  
+  font-size: 4.5em;
+  padding-top: 100px;
+  width: 70%;
+  bottom: 15%;
+  background: red;
+  }
+}
