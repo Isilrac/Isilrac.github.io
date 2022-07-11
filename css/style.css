@@ -142,7 +142,7 @@ h1 span{
   /* Us Section */
   .usSection{
     height: 100vh;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .usSection h3{
