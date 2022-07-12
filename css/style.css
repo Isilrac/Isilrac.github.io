@@ -453,6 +453,13 @@ h1 span{
     text-align: center;
   }
 
+  .navigatorItem:nth-child(3) p{
+    margin-top: 40%;
+    font-size: 2.5em;
+    text-align: center;
+    padding-right: 10px;
+  }
+
   .servicesContainer{
     flex-flow: row wrap;
     justify-content: space-around;
