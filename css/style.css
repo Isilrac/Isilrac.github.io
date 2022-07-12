@@ -384,7 +384,6 @@ h1 span{
 /* Services Section */
   .navigator{
     width: 100%;
-    height: 20%;
   }
 
   .navigatorItem{
@@ -392,31 +391,31 @@ h1 span{
   }
 
   .navigatorIconCircle{
-    height: 100px
+    height: 80px
   }
 
   .navigatorIconCircleBottom{
-    width: 80%;
-    padding-top: 80%;
+    width: 65%;
+    padding-top: 65%;
   }
 
   .navigatorIconCircleTop{
-    width: 80%;
-    padding-top: 80%;
+    width: 65%;
+    padding-top: 65%;
   }
 
   .navigatorIconSquare{
-    height: 100px;
+    height: 80px;
   }
 
   .navigatorIconSquareBottom{
-    width: 80%;
-    padding-top: 80%;
+    width: 65%;
+    padding-top: 65%;
   }
 
   .navigatorIconSquareTop{
-    width: 80%;
-    padding-top: 80%;
+    width: 65%;
+    padding-top: 65%;
     background-image: url("../assets/squareInner.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -428,28 +427,34 @@ h1 span{
   }
 
   .navigatorIconTriangle{
-    height: 100px;
+    height: 80px;
     position: relative;
   }
 
   .navigatorIconTriangleBottom{
-    width: 80%;
-    padding-top: 80%;
+    width: 65%;
+    padding-top: 65%;
   }
 
   .navigatorIconTriangleTop{
-    width: 80%;
-    padding-top: 80%;
+    width: 65%;
+    padding-top: 65%;
   }
 
   .navigatorItem p{
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 40%;
+  }
+
+  .navigatorItem:nth-child(1) p{
+    margin-top: 40%;
+    font-size: 3em;
   }
 
   .servicesContainer{
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .arrow:nth-of-type(1){
