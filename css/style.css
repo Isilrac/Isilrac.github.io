@@ -443,9 +443,8 @@ h1 span{
   }
 
   .navigatorItem p{
-    position: absolute;
-    bottom: 0;
     font-size: 2em;
+    margin-top: 40%;
   }
 
   .servicesContainer{
@@ -459,7 +458,7 @@ h1 span{
 
   .arrow{
     width: 30%;
-    padding-top: 0%;
+    padding-top: 30%;
     order: 2;
     flex-shrink: 2;
   }
