@@ -383,15 +383,15 @@ h1 span{
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /* Services Section */
   .navigator{
-    width: 100%;
+    width: 90%;
   }
 
   .navigatorItem{
-    width: 25%;
+    width: 20%;
   }
 
   .navigatorIconCircle{
-    height: 80px
+    height: 60px
   }
 
   .navigatorIconCircleBottom{
@@ -405,7 +405,7 @@ h1 span{
   }
 
   .navigatorIconSquare{
-    height: 80px;
+    height: 60px;
   }
 
   .navigatorIconSquareBottom{
@@ -427,7 +427,7 @@ h1 span{
   }
 
   .navigatorIconTriangle{
-    height: 80px;
+    height: 60px;
     position: relative;
   }
 
@@ -448,7 +448,7 @@ h1 span{
 
   .navigatorItem:nth-child(1) p{
     margin-top: 40%;
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .servicesContainer{
@@ -462,8 +462,8 @@ h1 span{
   }
 
   .arrow{
-    width: 30%;
-    padding-top: 30%;
+    width: 20%;
+    padding-top: 20%;
     order: 2;
     flex-shrink: 2;
   }
