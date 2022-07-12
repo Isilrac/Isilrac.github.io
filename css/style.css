@@ -384,10 +384,11 @@ h1 span{
 /* Services Section */
   .navigator{
     width: 100%;
+    height: 30%;
   }
 
   .servicesContainer{
-    flex-direction: column;
+    flex-flow: row wrap;
     justify-content: flex-start;
   }
 
@@ -402,7 +403,7 @@ h1 span{
   }
 
   .servicesContainer h3{
-    width: 40%;
+    width: 100%;
     font-size: 3em;
     order: 3;
     padding-left: 0%;
