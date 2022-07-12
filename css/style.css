@@ -106,11 +106,9 @@ h1 span{
 /* Image Separator */
 .imageSeparator{
   height: 100vh;
+  height: 500px;
   width: 100%;
   background-image: url("../assets/sample.jpeg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -156,36 +154,73 @@ h1 span{
 .navigatorIconCircleTop{
   width: 45%;
   padding-top: 45%;
-  background-image: url("../assets/square.svg");
+  background-image: url("../assets/circleInner.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  opacity: 0.5;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .navigatorIconSquare{
+  height: 48px;
+  position: relative;
+}
+
+.navigatorIconSquareBottom{
   width: 45%;
   padding-top: 45%;
-  margin-left: auto;
-  margin-right: auto;
   background-image: url("../assets/square.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navigatorIconSquareTop{
+  width: 45%;
+  padding-top: 45%;
+  background-image: url("../assets/squareInner.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .navigatorIconTriangle{
-  width: 47%;
-  padding-top: 47%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 48px;
+  position: relative;
+}
+
+.navigatorIconTriangleBottom{
+  width: 45%;
+  padding-top: 45%;
   background-image: url("../assets/triangle.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navigatorIconTriangleTop{
+  width: 45%;
+  padding-top: 45%;
+  background-image: url("../assets/triangleInner.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .navigatorItem p{
@@ -210,6 +245,42 @@ h1 span{
 
 
 
+
+.servicesContainer{
+  width: 80%;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.arrow{
+  width: 5%;
+  padding-top: 10%;
+  background-image: url("../assets/arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.arrow:nth-of-type(1){
+  transform: rotate(180deg);
+}
+
+.servicesContainer h3{
+  width: 20%;
+  padding-left: 5%;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.servicesContainer p{
+  width: 40%;
+  font-weight: 100;
+  font-size: 1.8em;
+}
 
 
 
