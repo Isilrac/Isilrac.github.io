@@ -364,7 +364,7 @@ h1 span{
 
   .usSection div{
     width: 40%;
-    height: 1px;
+    height: 2px;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: auto;
@@ -383,16 +383,12 @@ h1 span{
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /* Services Section */
   .navigator{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    width: 100%;
   }
 
   .servicesContainer{
     flex-direction: column;
+    justify-content: flex-start;
   }
 
   .arrow:nth-of-type(1){
@@ -400,19 +396,21 @@ h1 span{
   }
 
   .arrow{
-    width: 5%;
+    width: 30%;
     order: 2;
+    flex-shrink: 2;
   }
 
   .servicesContainer h3{
-    width: 20%;
-    font-size: 2.5em;
+    width: 40%;
+    font-size: 3em;
     order: 3;
+    padding-left: 0%;
   }
 
   .servicesContainer p{
-    width: 40%;
-    font-size: 1.8em;
+    width: 100%;
+    font-size: 2em;
     order: 4;
   }
 }
