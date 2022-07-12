@@ -416,14 +416,6 @@ h1 span{
   .navigatorIconSquareTop{
     width: 65%;
     padding-top: 65%;
-    background-image: url("../assets/squareInner.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    opacity: 0;
-    left: 50%;
-    transform: translateX(-50%);
   }
 
   .navigatorIconTriangle{
@@ -434,11 +426,16 @@ h1 span{
   .navigatorIconTriangleBottom{
     width: 65%;
     padding-top: 65%;
+    left: 60%;
+    transform: translateX(-60%);
   }
 
   .navigatorIconTriangleTop{
     width: 65%;
     padding-top: 65%;
+    opacity: 1;
+    left: 60%;
+    transform: translateX(-60%);
   }
 
   .navigatorItem p{
@@ -451,13 +448,6 @@ h1 span{
     margin-top: 40%;
     font-size: 2.5em;
     text-align: center;
-  }
-
-  .navigatorItem:nth-child(3) p{
-    margin-top: 40%;
-    font-size: 2.5em;
-    text-align: center;
-    padding-right: 10px;
   }
 
   .servicesContainer{
