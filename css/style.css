@@ -9,6 +9,9 @@
   font-family: 'Inter', sans-serif;
 }
 
+body{
+}
+
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /* Header */
 header{
@@ -105,11 +108,12 @@ h1 span{
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /* Image Separator */
 .imageSeparator{
-  height: 100vh;
   height: 500px;
   width: 100%;
   background-image: url("../assets/sample.jpeg");
+  background-position: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
@@ -242,10 +246,6 @@ h1 span{
 
 
 
-
-
-
-
 .servicesContainer{
   width: 80%;
   margin-top: 8%;
@@ -281,6 +281,10 @@ h1 span{
   font-weight: 100;
   font-size: 1.8em;
 }
+
+
+
+
 
 
 
