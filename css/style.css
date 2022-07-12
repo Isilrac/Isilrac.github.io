@@ -392,6 +392,57 @@ h1 span{
     height: 100%;
   }
 
+  .navigatorIconCircle{
+    height: 150px
+  }
+
+  .navigatorIconCircleBottom{
+    width: 80%;
+    padding-top: 80%;
+  }
+
+  .navigatorIconCircleTop{
+    width: 80%;
+    padding-top: 80%;
+  }
+
+  .navigatorIconSquare{
+    height: 150px;
+  }
+
+  .navigatorIconSquareBottom{
+    width: 80%;
+    padding-top: 80%;
+  }
+
+  .navigatorIconSquareTop{
+    width: 80%;
+    padding-top: 80%;
+    background-image: url("../assets/squareInner.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navigatorIconTriangle{
+    height: 150px;
+    position: relative;
+  }
+
+  .navigatorIconTriangleBottom{
+    width: 80%;
+    padding-top: 80%;
+  }
+
+  .navigatorIconTriangleTop{
+    width: 80%;
+    padding-top: 80%;
+  }
+
   .servicesContainer{
     flex-flow: row wrap;
     justify-content: center;
