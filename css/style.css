@@ -381,6 +381,7 @@ h1 span{
 /* Image Separator */
   .imageSeparator{
     height: 60vh;
+    margin-top: 10%;
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
