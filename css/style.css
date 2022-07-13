@@ -376,8 +376,15 @@ h1 span{
     font-size: 6em;
   }
 
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/* Image Separator */
   .imageSeparator{
     height: 60vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
@@ -427,14 +434,14 @@ h1 span{
     width: 65%;
     padding-top: 65%;
     right: 50%;
-    transform: translateX(-50%);
+    transform: translateX(50%);
   }
 
   .navigatorIconTriangleTop{
     width: 65%;
     padding-top: 65%;
     right: 50%;
-    transform: translateX(-50%);
+    transform: translateX(50%);
   }
 
   .navigatorItem p{
@@ -479,6 +486,7 @@ h1 span{
     width: 100%;
     margin-top: 5%;
     font-size: 3.5em;
+    font-weight: 200;
     order: 4;
   }
 }
