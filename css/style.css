@@ -391,60 +391,22 @@ h1 span{
 /* Services Section */
   .navigator{
     width: 90%;
-    background: red;
   }
 
   .navigatorItem{
     width: 30%;
-    background: yellow;
   }
 
   .navigatorIconCircle{
     height: 60px;
-    background: green;
-  }
-
-  .navigatorIconCircleBottom{
-    width: 45%;
-    padding-top: 45%;
-  }
-
-  .navigatorIconCircleTop{
-    width: 45%;
-    padding-top: 45%;
   }
 
   .navigatorIconSquare{
     height: 60px;
   }
 
-  .navigatorIconSquareBottom{
-    width: 50%;
-    padding-top: 50%;
-  }
-
-  .navigatorIconSquareTop{
-    width: 50%;
-    padding-top: 50%;
-  }
-
   .navigatorIconTriangle{
     height: 60px;
-    background: blue;
-  }
-
-  .navigatorIconTriangleBottom{
-    width: 65%;
-    padding-top: 65%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .navigatorIconTriangleTop{
-    width: 65%;
-    padding-top: 65%;
-    left: 50%;
-    transform: translateX(-50%);
   }
 
   .navigatorItem p{
