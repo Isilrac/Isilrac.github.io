@@ -391,14 +391,17 @@ h1 span{
 /* Services Section */
   .navigator{
     width: 90%;
+    background: red;
   }
 
   .navigatorItem{
     width: 20%;
+    background: yellow;
   }
 
   .navigatorIconCircle{
-    height: 60px
+    height: 60px;
+    background: green;
   }
 
   .navigatorIconCircleBottom{
@@ -427,21 +430,21 @@ h1 span{
 
   .navigatorIconTriangle{
     height: 60px;
-    position: relative;
+    background: blue;
   }
 
   .navigatorIconTriangleBottom{
     width: 65%;
     padding-top: 65%;
-    left: 60%;
-    transform: translateX(-60%);
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .navigatorIconTriangleTop{
     width: 65%;
     padding-top: 65%;
-    left: 60%;
-    transform: translateX(-60%);
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .navigatorItem p{
