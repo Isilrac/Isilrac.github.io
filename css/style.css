@@ -433,15 +433,15 @@ h1 span{
   .navigatorIconTriangleBottom{
     width: 65%;
     padding-top: 65%;
-    right: 50%;
-    transform: translateX(50%);
+    left: 60%;
+    transform: translateX(-60%);
   }
 
   .navigatorIconTriangleTop{
     width: 65%;
     padding-top: 65%;
-    right: 50%;
-    transform: translateX(50%);
+    left: 60%;
+    transform: translateX(-60%);
   }
 
   .navigatorItem p{
