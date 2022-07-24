@@ -755,7 +755,6 @@ h1 span{
 .mockupContainer{
   width: 80%;
   flex-flow: column wrap;
-  margin-bottom: 10px;
   align-content: center;
 }
 
@@ -764,7 +763,7 @@ h1 span{
   flex-shrink: 1;
   font-weight: 700;
   font-size: 5em;
-  margin-bottom: 70px;
+  
 }
 
 .mockupContainer h3:nth-of-type(1){
