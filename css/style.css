@@ -622,9 +622,10 @@ h1 span{
     width: 40%;
   }
 
-  .contacto{
-    font-size: 2.7em;
-    margin-right: 7%;
+  .down{
+    width: 20%;
+    padding-top: 20%;
+    margin-right: 5%;
   }
 
   h1{  
@@ -745,6 +746,42 @@ h1 span{
     order: 4;
   }
 }
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/* Mockup Section */
+
+.mockupContainer{
+  width: 80%;
+  flex-flow: row wrap;
+}
+
+.mockupContainer h3{
+  width: 70%;
+  flex-shrink: 2;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.mockupContainer span{
+  width: 0%;
+  height: 0;
+  flex-shrink: 2;
+}
+
+.wireframeContainer{
+  height: 60vh;
+  width: 100%;
+  bottom: 0;
+}
+
+.wireframeContainer div{
+  width: 100%;
+  height: 60vh;
+}
+
+
 /************************************************************************************************************************************************/
 
 
