@@ -745,55 +745,48 @@ h1 span{
     font-weight: 200;
     order: 4;
   }
+
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  /* Mockup Section */
+
+  .mockupSection{
+    width: 100%;
+    height: 170vh;
+    margin-bottom: 100px;
+  }
+
+  .mockupContainer{
+    width: 80%;
+    flex-flow: column wrap;
+  }
+
+  .mockupContainer h3{
+    width: 100%;
+    font-weight: 700;
+    font-size: 5em;
+    order: 1;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    text-align: center;
+  }
+
+ .mockupContainer span{
+    width: 0%;
+    height: 0;
+  }
+
+  .wireframeContainer{
+    height: 70vh;
+    width: 100%;
+  }
+
+  .wireframeContainer div{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+  }
 }
 
-
-
-/*------------------------------------------------------------------------------------------------------------------------------------*/
-/* Mockup Section */
-
-.mockupContainer{
-  width: 80%;
-  flex-flow: column wrap;
-  align-content: center;
-}
-
-.mockupContainer h3{
-  width: 70%;
-  flex-shrink: 1;
-  font-weight: 700;
-  font-size: 5em;
-  
-}
-
-.mockupContainer h3:nth-of-type(1){
-  order: 2;
-}
-
-.mockupContainer h3:nth-of-type(2){
-  order: 3;
-}
-
-.mockupContainer h3:nth-of-type(3){
-  order: 4;
-}
-
-.mockupContainer span{
-  width: 0%;
-  height: 0vh;
-  flex-shrink: 1;
-}
-
-.wireframeContainer{
-  height: 70vh;
-  width: 100%;
-}
-
-.wireframeContainer div{
-  width: 100%;
-  height: 70vh;
-  background-size: cover;
-}
 
 
 /************************************************************************************************************************************************/
