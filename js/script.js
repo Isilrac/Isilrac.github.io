@@ -1,23 +1,32 @@
 
 
-/*
-window.addEventListener('scroll', throttle(parallax, 14));
+var swiper = new Swiper(".slide-content", {
+    slidesPerView: 1,
+    spaceBetween: 25,
+    loop: false,
+    centerSlide: 'true',
+    fade: 'true',
+    rewind: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
 
-function throttle(fn, wait) {
-  var time = Date.now();
-  return function() {
-    if ((time + wait - Date.now()) < 0) {
-      fn();
-      time = Date.now();
-    }
-  }
-};
-
-function parallax() {
-  var scrolled = window.pageYOffset;
-  var parallax = document.querySelector("#imageSeparator");
-  // You can adjust the 0.4 to change the speed
-	var coords = (scrolled * .4) + 'px'
-  
-  parallax.style.backgroundPosition = "left " + scrolled + "px";
-};*/
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 1,
+        },
+        950: {
+            slidesPerView: 1,
+        },
+    },
+  });
