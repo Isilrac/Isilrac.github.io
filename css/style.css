@@ -56,10 +56,12 @@ h1{
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  color: #212427;
 }
 
 h1 span{
     font-weight: 600;
+    color: #212427;
 }
 
 .scrollGif{
@@ -83,6 +85,7 @@ h1 span{
 
 .usSection h3{
   font-size: 1.7em;
+  color: #212427;
 }
 
 .usSection div{
@@ -95,6 +98,7 @@ h1 span{
   width: 40%;
   font-size: 2.5em;
   font-weight: 100;
+  color: #212427;
 }
 
 
@@ -239,6 +243,7 @@ h1 span{
   font-weight: 200;
   text-align: center;
   opacity: 0;
+  color: #212427;
 }
 
 
@@ -306,6 +311,7 @@ h1 span{
   font-size: 3em;
   position: relative;
   width: 80%;
+  color: #212427;
 }
 
 .description{
@@ -314,6 +320,7 @@ h1 span{
   position: relative;
   width: 83%;
   padding-top: 5%;
+  color: #212427;
 }
 
 .swiper-navBtn{
@@ -372,6 +379,7 @@ h1 span{
   flex-shrink: 2;
   font-weight: 700;
   font-size: 3em;
+  color: #212427;
 }
 
 .mockupContainer span{
@@ -452,6 +460,7 @@ h1 span{
   flex-shrink: 3;
   font-weight: 700;
   font-size: 4em;
+  color: #212427;
 }
 
 .pymeContainer p{
@@ -459,6 +468,7 @@ h1 span{
   flex-shrink: 3;
   font-weight: 200;
   font-size: 1.7em;
+  color: #212427;
 }
 
 .pymeContainer button{
