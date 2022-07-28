@@ -827,17 +827,12 @@ h1 span{
     flex-shrink: 1;
     padding: 15px 32px;
     font-size: 2.5em;
-    cursor: pointer;
   }
 
   .pymeImage{
-    width: 100%;
-    padding-top: 100%;
+    width: 80%;
+    padding-top: 80%;
     flex-shrink: 1;
-    background-image: url("../assets/convo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
   }
 
   /*------------------------------------------------------------------------------------------------------------------------------------*/
