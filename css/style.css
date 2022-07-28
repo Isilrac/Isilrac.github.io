@@ -939,7 +939,7 @@ h1 span{
 
   .servicesContainer{
     width: 100%;
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
 
@@ -958,9 +958,8 @@ h1 span{
 .slide-container{
   max-width: 1120px;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   padding: 40px 0;
-  
 }
 .slide-content{
   height: 90%;
