@@ -758,7 +758,7 @@ h1 span{
 
   .mockupSection{
     width: 100%;
-    height: 170vh;
+    height: auto;
     margin-bottom: 100px;
   }
 
@@ -792,10 +792,157 @@ h1 span{
     height: 70vh;
     background-size: cover;
   }
+
+
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  /* Pymes Section */
+
+  .pymeContainer{
+    width: 90%;
+    height: 90%;
+    justify-content: space-evenly;
+  }
+
+  .pymeContainer h3{
+    width: 85%;
+    flex-shrink: 1;
+    font-weight: 700;
+    font-size: 6em;
+    
+    }
+
+  .pymeContainer p{
+    width: 85%;
+    flex-shrink: 1;
+    font-weight: 200;
+    font-size: 3.8em;
+    margin-bottom: 20px;
+  }
+
+  .pymeContainer button{
+    order: 4;
+    height: 8%;
+    width: 100%;
+    margin-top: 20px;
+    flex-shrink: 1;
+    padding: 15px 32px;
+    font-size: 2.5em;
+    cursor: pointer;
+  }
+
+  .pymeImage{
+    width: 100%;
+    padding-top: 100%;
+    flex-shrink: 1;
+    background-image: url("../assets/convo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  /* Contact Section */
+  .contactSection{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    background: black;
+    padding-top: 30%;
+  }
+
+  .circleContact{
+    width: 20%;
+    height: 0;
+    padding-top: 20%;
+    border-width: 4px;
+  }
+
+  .contactSection h2{
+    width: 80%;
+    margin-top: 20%;
+    font-size: 4.5em;
+  }
+
+  .contactContainer{
+    width: 95%;
+    height: 45%;
+    flex-flow: column wrap;
+  }
+
+  .copyrightContainer{
+    width: 90%;
+    margin-bottom: 10%;
+    order: 3;
+  }
+
+  .copyrightContainer p{
+    font-size: 2.5em;
+  }
+
+  .copyrightContainer button{
+    margin-top: 50px;
+    font-size: 2.5em;
+  }
+
+  .goToStart{
+    width: 50%;
+  }
+
+  .goToStart a{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 0px;
+  }
+
+  .socialNetworks{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .mailButton{
+    width: 10%;
+    padding-top: 10%;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    background-image: url("../assets/mail.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .instaButton{
+    width: 10%;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    background-image: url("../assets/insta.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .whatsButton{
+    width: 10%;
+    padding-top: 10%;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    background-image: url("../assets/whats.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+
 }
-
-
-
 /************************************************************************************************************************************************/
 
 
