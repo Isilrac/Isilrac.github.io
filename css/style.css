@@ -785,6 +785,7 @@ h1 span{
   .wireframeContainer{
     height: 70vh;
     width: 100%;
+    margin-bottom: 300px;
   }
 
   .wireframeContainer div{
