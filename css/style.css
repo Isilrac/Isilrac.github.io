@@ -253,7 +253,7 @@ h1 span{
 
 .servicesContainer{
   width: 80%;
-  margin-top: 8%;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -261,24 +261,89 @@ h1 span{
   align-items: center;
 }
 
-.arrow{
-  width: 5%;
-  padding-top: 10%;
-  background-image: url("../assets/arrow.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  height: 60vh;
+  padding: 40px 0;
 }
 
-.arrow:nth-of-type(1){
-  transform: rotate(180deg);
+.slide-content{
+  height: 80%;
+  width: 80%;
+  margin: 0 10%;
+  overflow: hidden;
+  border-radius: 0px;
+  
 }
 
-.servicesContainer h3{
-  width: 20%;
-  padding-left: 5%;
+.card{
+  background: white;
+}
+
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+  height: 70%;
+
+}
+
+.image-content{
+  height: 20%;
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+
+}
+
+.name{
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: 3em;
+  position: relative;
+  width: 80%;
+}
+
+.description{
+  font-weight: 100;
+  font-size: 1.5em;
+  position: relative;
+  width: 83%;
+  padding-top: 5%;
+}
+
+.swiper-navBtn{
+  color: #6E93f7 !important;
+  transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover{
+  color: #4070F4 !important;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+
+.swiper-button-next{
+  right: 0;
+}
+
+.swiper-button-prev{
+  left: 0;
+}
+
+.swiper-pagination-bullet{
+  width: 30px !important;
+  height: 30px !important;
+  opacity: 1;
+
+}
+
+.swiper-pagination-bullet-active{
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
@@ -712,44 +777,103 @@ h1 span{
     text-align: center;
   }
 
-  /* 
-
   .servicesContainer{
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .slide-container{
+    max-width: 1120px;
+    width: 100%;
+    height: 70vh;
+    padding: 40px 0;
+  }
+
+  .slide-content{
+    height: 90%;
     width: 80%;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30%;
-    padding: 5%;
-    background: white;
+    margin: 0 10%;
+    overflow: visible;
+    border-radius: 25px;
+    
+  }
+
+  .card{
+    border-radius: 25px;
     border-style: solid;
     border-color: dimgray;
-    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+    background: white;
   }
 
-  .arrow{
-    width: 0;
-    height: 0;
-    flex-shrink: 2;
+  .image-content,
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    height: 70%;
   }
 
-  .servicesContainer h3{
-    width: 90%;
-    font-size: 4.5em;
-    order: 3;
-    padding-left: 0%;
-    margin-top: 0%;
-    margin-bottom: 5%;
+  .image-content{
+    height: 20%;
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
   }
 
-  .servicesContainer p{
-    width: 90%;
-    margin-top: 5%;
+  .name{
+    font-weight: 700;
+    font-size: 5em;
+    position: relative;
+    width: 80%;
+    padding-top: 3%;
+    color: black;
+  }
+
+  .description{
+    font-weight: 100;
     font-size: 3em;
-    font-weight: 200;
-    order: 4;
+    position: relative;
+    width: 80%;
+    color: black;
+    padding-top: 3%;
   }
-  */
+
+  .swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease;
+  }
+
+  .swiper-navBtn:hover{
+    color: #4070F4;
+  }
+
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+    opacity: 0;
+  }
+
+  .swiper-button-next{
+    right: 0;
+    opacity: 0;
+  }
+
+  .swiper-button-prev{
+    left: 0;
+    opacity: 0;
+  }
+
+  .swiper-pagination-bullet{
+    width: 30px !important;
+    height: 30px !important;
+    opacity: 1;
+
+  }
+
+  .swiper-pagination-bullet-active{
+  }
 
   /*------------------------------------------------------------------------------------------------------------------------------------*/
   /* Mockup Section */
@@ -771,8 +895,12 @@ h1 span{
     font-size: 5em;
     order: 1;
     margin-top: 200px;
-    margin-bottom: 400px;
+    margin-bottom: 300px;
     text-align: center;
+  }
+
+  .mockupContainer h3:nth-of-type(3){
+    margin-bottom: 0px;
   }
 
  .mockupContainer span{
@@ -814,8 +942,8 @@ h1 span{
     width: 85%;
     flex-shrink: 1;
     font-weight: 200;
-    font-size: 3.8em;
-    margin-bottom: 20px;
+    font-size: 3.5em;
+    margin-bottom: 0px;
   }
 
   .pymeContainer button{
@@ -829,8 +957,8 @@ h1 span{
   }
 
   .pymeImage{
-    width: 80%;
-    padding-top: 80%;
+    width: 85%;
+    padding-top: 85%;
     flex-shrink: 1;
   }
 
@@ -936,110 +1064,11 @@ h1 span{
 
 
 
-
-  .servicesContainer{
-    width: 100%;
-    margin-top: 10%;
-  }
-
-
-
 }
 /************************************************************************************************************************************************/
-/*
-.servicesContainer{
-  height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #EFEFEF;
-}*/
 
-.slide-container{
-  max-width: 1120px;
-  width: 100%;
-  height: 70vh;
-  padding: 40px 0;
-}
-.slide-content{
-  height: 90%;
-  width: 80%;
-  margin: 0 10%;
-  overflow: visible;
-  border-radius: 25px;
-  
-}
 
-.card{
-  border-radius: 25px;
-  border-style: solid;
-  border-color: dimgray;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
-  background: white;
-}
 
-.image-content,
-.card-content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 14px;
-  height: 70%;
-}
-
-.image-content{
-  height: 20%;
-  position: relative;
-  row-gap: 5px;
-  padding: 25px 0;
-}
-
-.name{
-  font-weight: 700;
-  font-size: 5em;
-  position: relative;
-  width: 80%;
-  padding-top: 3%;
-  color: black;
-}
-
-.description{
-  font-weight: 100;
-  font-size: 3em;
-  position: relative;
-  width: 80%;
-  color: black;
-  padding-top: 3%;
-}
-
-.swiper-navBtn{
-  color: #6E93f7;
-  transition: color 0.3s ease;
-}
-.swiper-navBtn:hover{
-  color: #4070F4;
-}
-.swiper-navBtn::before,
-.swiper-navBtn::after{
-  font-size: 35px;
-  opacity: 0;
-}
-.swiper-button-next{
-  right: 0;
-  opacity: 0;
-}
-.swiper-button-prev{
-  left: 0;
-  opacity: 0;
-}
-.swiper-pagination-bullet{
-  width: 30px !important;
-  height: 30px !important;
-  opacity: 1;
-
-}
-.swiper-pagination-bullet-active{
-}
 
 
 
