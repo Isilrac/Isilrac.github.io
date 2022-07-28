@@ -187,6 +187,7 @@ h1 span{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  opacity: 0.5;
 }
 
 .navigatorIconSquareTop{
@@ -217,6 +218,7 @@ h1 span{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  opacity: 0.5;
 }
 
 .navigatorIconTriangleTop{
@@ -476,7 +478,7 @@ h1 span{
 }
 
 .pymeContainer button:hover{
-  background: #16425b;
+  background: #1e293b;
 }
 
 .pymeImage{
@@ -802,7 +804,7 @@ h1 span{
   .card{
     border-radius: 25px;
     border-style: solid;
-    border-color: dimgray;
+    border-color: lightgray;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     background: white;
   }
