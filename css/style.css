@@ -807,7 +807,6 @@ h1 span{
     margin: 0 10%;
     overflow: visible;
     border-radius: 25px;
-    background: red;
   }
 
   .card{
@@ -816,6 +815,7 @@ h1 span{
     border-color: lightgray;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
     background: white;
+    margin-right: 6% !important;
   }
 
   .image-content,
