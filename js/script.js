@@ -2,9 +2,9 @@
 
 var swiper = new Swiper(".slide-content", {
     slidesPerView: 1,
-    spaceBetween: 25,
+    spaceBetween: 50,
     loop: false,
-    centerSlide: 'true',
+    centerSlide: true,
     fade: 'true',
     rewind: 'true',
     grabCursor: 'true',

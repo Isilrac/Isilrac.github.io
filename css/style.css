@@ -281,7 +281,6 @@ h1 span{
   margin: 0 10%;
   overflow: hidden;
   border-radius: 0px;
-  
 }
 
 .card{
@@ -808,7 +807,7 @@ h1 span{
     margin: 0 10%;
     overflow: visible;
     border-radius: 25px;
-    
+    background: red;
   }
 
   .card{
@@ -831,7 +830,6 @@ h1 span{
   .image-content{
     height: 20%;
     position: relative;
-    row-gap: 5px;
     padding: 25px 0;
   }
 
