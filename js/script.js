@@ -46,3 +46,77 @@ function revealMockup() {
 }
 
 window.addEventListener("scroll", revealMockup);
+
+
+var circleButton = document.getElementById("navigatorIconCircleTop");
+var squareButton = document.getElementById("navigatorIconSquareTop");
+var triangleButton = document.getElementById("navigatorIconTriangleTop");
+var concepto = document.getElementById("concepto");
+var imagen = document.getElementById("imagen");
+var producto = document.getElementById("producto");
+
+
+function updateServiceMenuCircle() {
+    circleButton.classList.add("active");
+    squareButton.classList.remove("active");
+    triangleButton.classList.remove("active");
+
+    concepto.classList.add("active");
+    imagen.classList.remove("active");
+    producto.classList.remove("active");
+
+    swiper.slideTo(0, 1500, false);
+}
+
+function updateServiceMenuSquare() {
+    squareButton.classList.add("active");
+    circleButton.classList.remove("active");
+    triangleButton.classList.remove("active");
+
+    imagen.classList.add("active");
+    concepto.classList.remove("active");
+    producto.classList.remove("active");
+
+    swiper.slideTo(7, 1500, false);
+}
+
+function updateServiceMenuTriangle() {
+    triangleButton.classList.add("active");
+    squareButton.classList.remove("active");
+    circleButton.classList.remove("active");
+
+    producto.classList.add("active");
+    concepto.classList.remove("active");
+    imagen.classList.remove("active");
+
+    swiper.slideTo(13, 1500, false);
+}
+
+circleButton.addEventListener("click", updateServiceMenuCircle);
+squareButton.addEventListener("click", updateServiceMenuSquare);
+triangleButton.addEventListener("click", updateServiceMenuTriangle);
+
+updateServiceMenuCircle();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
