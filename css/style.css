@@ -405,7 +405,7 @@ h1 span{
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../assets/Mockup.png");
+  background-image: url("../assets/LoFi.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,11 +415,16 @@ h1 span{
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../assets/sample.jpeg");
+  background-image: url("../assets/HiFi.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
+  transition: 1s all ease;
+}
+
+.wireframe.active{
+  opacity: 1;
 }
 
 .mockup{
@@ -431,6 +436,11 @@ h1 span{
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
+  transition: 1s all ease;
+}
+
+.mockup.active{
+  opacity: 1;
 }
 
 
