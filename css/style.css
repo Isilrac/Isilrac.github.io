@@ -592,6 +592,7 @@ h1 span{
   font-weight: 200;
   font-size: 1em;
   cursor: pointer;
+  opacity: 0;
 }
 
 .goToStart{
