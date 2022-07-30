@@ -19,6 +19,18 @@ var swiper = new Swiper(".slide-content", {
     },
   });
 
+swiper.on('slideChange', function () {
+    if (swiper.activeIndex == 7 && swiper.previousIndex == 6) {
+        updateServiceMenuSquare(false);
+    } else if (swiper.activeIndex == 13 && swiper.previousIndex == 12) {
+        updateServiceMenuTriangle(false);
+    } else if (swiper.activeIndex == 12 && swiper.previousIndex == 13) {
+        updateServiceMenuSquare(false);
+    } else if (swiper.activeIndex == 6 && swiper.previousIndex == 7) {
+        updateServiceMenuCircle(false);
+    }
+});
+
 function revealMockup() {
 
   var hiFi = document.getElementById("wireframe");
@@ -65,7 +77,9 @@ function updateServiceMenuCircle() {
     imagen.classList.remove("active");
     producto.classList.remove("active");
 
-    swiper.slideTo(0, 1500, false);
+    if (arguments[0] != false) {
+        swiper.slideTo(0, 1500, false);
+    }
 }
 
 function updateServiceMenuSquare() {
@@ -77,7 +91,9 @@ function updateServiceMenuSquare() {
     concepto.classList.remove("active");
     producto.classList.remove("active");
 
-    swiper.slideTo(7, 1500, false);
+    if (arguments[0] != false) {
+        swiper.slideTo(7, 1500, false);
+    }
 }
 
 function updateServiceMenuTriangle() {
@@ -89,7 +105,9 @@ function updateServiceMenuTriangle() {
     concepto.classList.remove("active");
     imagen.classList.remove("active");
 
-    swiper.slideTo(13, 1500, false);
+    if (arguments[0] != false) {
+        swiper.slideTo(13, 1500, false);
+    }
 }
 
 circleButton.addEventListener("click", updateServiceMenuCircle);
