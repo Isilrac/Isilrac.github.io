@@ -776,7 +776,8 @@ h1 span{
 /* Image Separator */
   .imageSeparator{
     height: 80vh;
-    margin-top: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
     background-attachment: scroll;
     background-position: center;
     background-size: contain;
